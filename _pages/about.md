@@ -2,23 +2,41 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: Émergence Ville de Paris  2021 - 2025 
 
+
+logo:
+  align : right
+  list : [a, b, c, d, e]
+  a : Ville_de_Paris_logo_2019.svg
+  b : lip6.svg
+  c : irif.svg
+  d : diens.svg
+  e : IBM.svg
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  img : #
+  address: # >
+#    <p>Projet Émergence</p>
+#    <p>2021 - 2025</p>
+#    <p></p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+#### Abstract
+Whatever the context (robots, planes or computer assisted cars) embedded software have to react in real
+time and to adapt to their continuously evolving environment. Moreover, such critical softwares have to en-
+sure strong safety properties. That is why the computer science community has been developing dedicated
+programming languages so called reactive and synchronous. Nowadays, reactive languages have to include
+modern approaches such as Artificial Intelligence. Indeed, statistical models can model physical environment
+and be used for training controllers in reactive systems. Over the last years, many probabilistic programming
+languages have been introduced in order to describe statistical models. The probabilistic paradigm has raised
+new challenges for the computer science community and turned to be a rich and trendy line of research. For in-
+stance, at IBM research - one of the largest industrial research organizations in the world - the AI Programming
+Models team is working in collaboration with MIT and DIENS on robust and reactive probabilistic modeling.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+#### Proposal <a href="{{ ReaLiSe-proposal.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">pdf</a>
