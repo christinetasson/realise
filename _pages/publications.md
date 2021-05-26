@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: 
+#description: 
 nav: true
 ---
 References supported by the ReaLiSe project.
