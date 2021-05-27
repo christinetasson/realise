@@ -39,4 +39,4 @@ stance, at IBM research - one of the largest industrial research organizations i
 Models team is working in collaboration with MIT and DIENS on robust and reactive probabilistic modeling.
 
 
-#### Proposal <a href="{{ ReaLiSe-proposal.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">pdf</a>
+#### Proposal <a href="{{ 'ReaLiSe-proposal.pdf' | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">pdf</a>
