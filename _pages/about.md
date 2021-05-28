@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Émergence Ville de Paris  2021 - 2025 
+description: Émergence Ville de Paris  2021 - 2025
 
 
 logo:
@@ -27,16 +27,31 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 #### Abstract
-Whatever the context (robots, planes or computer assisted cars) embedded software have to react in real
-time and to adapt to their continuously evolving environment. Moreover, such critical softwares have to en-
-sure strong safety properties. That is why the computer science community has been developing dedicated
-programming languages so called reactive and synchronous. Nowadays, reactive languages have to include
-modern approaches such as Artificial Intelligence. Indeed, statistical models can model physical environment
-and be used for training controllers in reactive systems. Over the last years, many probabilistic programming
-languages have been introduced in order to describe statistical models. The probabilistic paradigm has raised
-new challenges for the computer science community and turned to be a rich and trendy line of research. For in-
-stance, at IBM research - one of the largest industrial research organizations in the world - the AI Programming
-Models team is working in collaboration with MIT and DIENS on robust and reactive probabilistic modeling.
 
+Embedded software flies planes and drives autonomous cars, control robots and
+monitor health devices. This success makes the challenge faced by its developers
+tougher than ever, as they must write code that is able to react in real time to
+a shifting physical environment under stringent safety constraints.
+
+To address the difficulties posed by safety-critical embedded software, the
+computer science community has been developing dedicated programming languages,
+the so-called reactive and synchronous languages. Such languages enforce strong
+safety properties by construction, e.g., by ruling out deadlocks statically.
+
+New application domains such as autonomous driving require integrating
+techniques from artificial intelligence to reactive programming frameworks. For
+example, statistical models of physical environments can be used for training
+controllers written in reactive languages. While computer languages for
+statistical and probabilistic programming have been studied in depth by the
+academic and industrial community, their application to the reactive setting is
+still in its infancy.
+
+The **ReaLiSe** project will study the integration of probabilistic and
+statistical programming with reactive and synchronous languages. We will adopt
+both practical and theoretical point-of-views, combining the strengths of
+academic and industrial partners. We will build on top of existing efforts, such
+as the work of the //AI Programming Models// team of IBM research -- one of the
+largest industrial research organizations in the world -- in collaboration with
+MIT and DIENS on robust and reactive probabilistic modeling.
 
 #### Proposal <a href="{{ 'ReaLiSe-proposal.pdf' | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">pdf</a>
