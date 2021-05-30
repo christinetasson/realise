@@ -54,5 +54,5 @@ as the work of the //AI Programming Models// team of IBM research -- one of the
 largest industrial research organizations in the world -- in collaboration with
 MIT and DIENS on robust and reactive probabilistic modeling.
 
-#### Proposal <a href="{{ 'ReaLiSe-proposal.pdf' | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">pdf</a>
+#### Proposal <a href="{{ 'ReaLiSe-proposal.pdf' | prepend: '/assets/pdf/' | relative_url }}" class="publication.li.links btn btn-sm z-depth-0" role="button" target="_blank">pdf</a>
 
